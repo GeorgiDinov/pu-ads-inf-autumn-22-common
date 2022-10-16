@@ -4,22 +4,11 @@
     {
         static void Main(string[] args)
         {
-            int[] array = GetRandomInitializedSingleDimentionArray(7);
-            Console.WriteLine("Array = " + GetArrayAsString(array));
-            Console.WriteLine();
-            int[,] matrix = GetRandomMatrix(3, 5);
-            PrintMatrix(matrix);
-
-            EratostenSieve(20);
-            PrintAllPrimesUpTo(20);
-            GetFibonachiLineIter(20);
-            Console.WriteLine();
-            Console.WriteLine(GetFibonachiRecursive(20));
-
         }// end of method Main
 
         //Common array stuff
-        //*** Why array indicies start from '0'?
+        //***Please revise why array indicies start from '0'?
+        //:) At least in modern programing languages.
         private static int[] GetRandomInitializedSingleDimentionArray(int arrayLength)
         {
             Random random = new Random();
@@ -441,6 +430,39 @@
             return true;
         }
 
+        //LargestPrimeFactor
+        //        Write a method named getLargestPrime with one parameter of type int named number.
+        //        If the number is negative or does not have any prime numbers,
+        //        the method should return -1 to indicate an invalid value.
+        //        The method should calculate the largest prime factor of a given number and return it.
+        //
+        //        EXAMPLE INPUT/OUTPUT:
+        //        * getLargestPrime (21); should return 7 since 7 is the largest prime (3 * 7 = 21)
+        //        * getLargestPrime (217); should return 31 since 31 is the largest prime (7 * 31 = 217)
+        //        * getLargestPrime (0); should return -1 since 0 does not have any prime numbers
+        //        * getLargestPrime (45); should return 5 since 5 is the largest prime (3 * 3 * 5 = 45)
+        //        * getLargestPrime (-1); should return -1 since the parameter is negative
+
+        //        HINT: Since the numbers 0 and 1 are not considered prime numbers, they cannot contain prime numbers.
+        private static int GetLargestPrimeFactor(int number)
+        {
+            Console.WriteLine("number at start = " + number);
+            if (number < 0)
+            {
+                return -1;
+            }
+            int i;
+            for (i = 2; i <= number; i++)
+            {
+                if (number % i == 0)
+                {
+                    number /= i;
+                    i--;
+                }
+            }
+            return i;
+        }
+
         //Fibonachi line
         private static int[] GetFibonachiNumbersUpToArrayImpl(int number)
         {
@@ -478,6 +500,108 @@
             }
             int result = GetFibonachiRecursive(n - 1) + GetFibonachiRecursive(n - 2);
             return result;
+        }
+
+        //GreatestCommonDividor
+        private static int GreatestCommonDivModulus(int a, int b)
+        {
+            if (b == 0)
+            {
+                return a;
+            }
+            while (b != 0)
+            {
+                int temp = a % b;
+                a = b;
+                b = temp;
+            }
+            return a;
+        }
+
+        private static int GreatestCommonDivSubtraction(int a, int b)
+        {
+            if (b == 0)
+            {
+                return a;
+            }
+            while (a != b)
+            {
+                if (a > b)
+                {
+                    a -= b;
+                }
+                else
+                {
+                    b -= a;
+                }
+            }
+            return a;
+        }
+
+        static int GreatestCommonDivRecursive(int a, int b)
+        {
+            if (a == 0)
+            {
+                return b;
+            }
+
+            if (b == 0)
+            {
+                return a;
+            }
+
+            if (a > b)
+            {
+                a %= b;
+                return GreatestCommonDivRecursive(a, b);
+            }
+            else
+            {
+                b %= a;
+                return GreatestCommonDivRecursive(a, b);
+            }
+        }
+
+        //Searching
+        //Linear search
+        private static int LinearSearch(int[] arrayToSearchIn, int numberToSearchFor)
+        {
+            for (int i = 0; i < arrayToSearchIn.Length; i++)
+            {
+                Console.WriteLine("Linear search iteration");
+
+                if (arrayToSearchIn[i] == numberToSearchFor)
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        //Binary search
+        //*** remeber, works only on sorted array/collection
+        private static int BinarySearch(int[] arrayToSearchIn, int numberToSearchFor)
+        {
+            int first = 0;
+            int last = arrayToSearchIn.Length - 1;
+            while (first <= last)
+            {
+                int mid = (first + last) / 2;
+                if (arrayToSearchIn[mid] == numberToSearchFor)
+                {
+                    return mid;
+                }
+
+                if (arrayToSearchIn[mid] < numberToSearchFor)
+                {
+                    first = mid + 1;
+                }
+                else
+                {
+                    last = mid - 1;
+                }
+            }
+            return -1;
         }
 
 

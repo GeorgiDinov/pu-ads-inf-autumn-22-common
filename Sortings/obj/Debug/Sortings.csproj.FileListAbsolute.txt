@@ -1,0 +1,8 @@
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\Sortings\bin\Debug\Sortings.exe.config
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\Sortings\bin\Debug\Sortings.exe
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\Sortings\bin\Debug\Sortings.pdb
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\Sortings\obj\Debug\Sortings.csproj.AssemblyReference.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\Sortings\obj\Debug\Sortings.csproj.SuggestedBindingRedirects.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\Sortings\obj\Debug\Sortings.csproj.CoreCompileInputs.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\Sortings\obj\Debug\Sortings.exe
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\Sortings\obj\Debug\Sortings.pdb

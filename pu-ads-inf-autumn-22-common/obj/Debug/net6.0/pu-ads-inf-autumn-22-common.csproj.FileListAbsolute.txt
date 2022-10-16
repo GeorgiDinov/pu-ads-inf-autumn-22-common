@@ -1,0 +1,15 @@
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\bin\Debug\net6.0\pu-ads-inf-autumn-22-common.exe
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\bin\Debug\net6.0\pu-ads-inf-autumn-22-common.deps.json
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\bin\Debug\net6.0\pu-ads-inf-autumn-22-common.runtimeconfig.json
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\bin\Debug\net6.0\pu-ads-inf-autumn-22-common.dll
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\bin\Debug\net6.0\pu-ads-inf-autumn-22-common.pdb
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\obj\Debug\net6.0\pu-ads-inf-autumn-22-common.csproj.AssemblyReference.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\obj\Debug\net6.0\pu-ads-inf-autumn-22-common.GeneratedMSBuildEditorConfig.editorconfig
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\obj\Debug\net6.0\pu-ads-inf-autumn-22-common.AssemblyInfoInputs.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\obj\Debug\net6.0\pu-ads-inf-autumn-22-common.AssemblyInfo.cs
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\obj\Debug\net6.0\pu-ads-inf-autumn-22-common.csproj.CoreCompileInputs.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\obj\Debug\net6.0\pu-ads-inf-autumn-22-common.dll
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\obj\Debug\net6.0\refint\pu-ads-inf-autumn-22-common.dll
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\obj\Debug\net6.0\pu-ads-inf-autumn-22-common.pdb
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\obj\Debug\net6.0\pu-ads-inf-autumn-22-common.genruntimeconfig.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\pu-ads-inf-autumn-22-common\obj\Debug\net6.0\ref\pu-ads-inf-autumn-22-common.dll

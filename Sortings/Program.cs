@@ -78,7 +78,7 @@ namespace Sortings
 
         // Main difference /imporovement when using the Shell method over InsertionSort is that we 
         // make a couple of rough sortings while our step/cap is closing(going smaller)
-        // and our array is more or less sorted, this helps reducing the number of shifts we make to fins the spot for our "candidate" 
+        // and our array is more or less sorted, this helps reducing the number of shifts we make to find the spot for our "candidate" 
         private static void ShellSort(int[] array)
         {
             int shiftsCounter = 0;

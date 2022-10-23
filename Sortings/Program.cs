@@ -10,12 +10,27 @@ namespace Sortings
             //Two identical arrays to test the difference in shifts between Insertion and Shell sort
             int[] array = new int[] { 10, 3, 5, 14, 21, 17, -5, 1 };
             int[] array2 = new int[] { 10, 3, 5, 14, 21, 17, -5, 1 };
-            Console.WriteLine("Array = " + GetArrayAsString(array));
-            Console.WriteLine("Array2 = " + GetArrayAsString(array2));
+            Console.WriteLine("Array1 = " + GetArrayAsString(array));
             InsertionSort(array);
-            ShellSort(array2);
-            Console.WriteLine("Array = " + GetArrayAsString(array));
+            Console.WriteLine("Array1 = " + GetArrayAsString(array));
+            Console.WriteLine();
             Console.WriteLine("Array2 = " + GetArrayAsString(array2));
+            ShellSort(array2);
+            Console.WriteLine("Array2 = " + GetArrayAsString(array2));
+            Console.WriteLine();
+
+            int[] array3 = new int[] { 10, 3, 5, 14, 21, 17, -5, 1 };
+            Console.WriteLine("Array3 = " + GetArrayAsString(array3));
+            MergeSort(array3, 0, array3.Length);
+            Console.WriteLine("Merge Sort Applied");
+            Console.WriteLine("Array3 = " + GetArrayAsString(array3));
+            Console.WriteLine();
+
+            int[] array4 = new int[] { 10, 3, 5, 14, 21, 17, -5, 1 };
+            Console.WriteLine("Array4 = " + GetArrayAsString(array4));
+            QuickSort(array4, 0, array4.Length);
+            Console.WriteLine("Quick Sort Applied");
+            Console.WriteLine("Array4 = " + GetArrayAsString(array4));
         }
 
         //Slightly optimized if happens that the array is already sorted we will stop iterating
@@ -99,6 +114,70 @@ namespace Sortings
             Console.WriteLine("Exiting ShellSort with " + shiftsCounter + " shifts.");
         }
 
+        private static void MergeSort(int[] array, int start, int end)
+        {
+            if (end - start < 2)
+            {
+                return;
+            }
+            //logical partitioning part, until we go down to one element arrays(sorted by default)
+            int mid = (start + end) / 2;
+            MergeSort(array, start, mid);
+            MergeSort(array, mid, end);
+            //merge part
+            Merge(array, start, mid, end);
+        }
+
+        private static void Merge(int[] array, int start, int mid, int end)
+        {
+            if (array[mid - 1] <= array[mid])
+            {
+                return;
+            }
+            int i = start;
+            int j = mid;
+            int tempIndex = 0;
+            int[] tempArray = new int[end - start];
+            while (i < mid && j < end)
+            {
+                tempArray[tempIndex++] = (array[i] <= array[j]) ? array[i++] : array[j++]; // note '<=' this makes it stable sorting algorithm
+            }
+            Array.Copy(array, start, array, start + tempIndex, mid - i);
+            Array.Copy(tempArray, 0, array, start, tempIndex);
+        }
+
+        private static void QuickSort(int[] array, int start, int end)
+        {
+            if (end - start < 2)
+            {
+                return;
+            }
+            int pivotIndex = Partition(array, start, end);
+            QuickSort(array, start, pivotIndex);
+            QuickSort(array, pivotIndex + 1, end);
+        }
+
+        private static int Partition(int[] array, int start, int end)
+        {
+            int pivot = array[start];
+            int leftSide = start;
+            int rightSide = end;
+            while (leftSide < rightSide)
+            {
+                while (leftSide < rightSide && array[--rightSide] > pivot) ;
+                if (leftSide < rightSide)
+                {
+                    array[leftSide] = array[rightSide];
+                }
+                while (leftSide < rightSide && array[++leftSide] < pivot) ;
+                if (leftSide < rightSide)
+                {
+                    array[rightSide] = array[leftSide];
+                }
+            }
+            array[rightSide] = pivot;
+            return rightSide;
+        }
 
         private static void Swap(int[] array, int left, int right)
         {

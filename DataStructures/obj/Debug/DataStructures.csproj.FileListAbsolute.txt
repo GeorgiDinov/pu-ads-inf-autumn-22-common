@@ -1,0 +1,8 @@
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\DataStructures\bin\Debug\DataStructures.exe.config
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\DataStructures\bin\Debug\DataStructures.exe
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\DataStructures\bin\Debug\DataStructures.pdb
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\DataStructures\obj\Debug\DataStructures.csproj.AssemblyReference.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\DataStructures\obj\Debug\DataStructures.csproj.SuggestedBindingRedirects.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\DataStructures\obj\Debug\DataStructures.csproj.CoreCompileInputs.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\DataStructures\obj\Debug\DataStructures.exe
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\DataStructures\obj\Debug\DataStructures.pdb

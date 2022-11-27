@@ -1,0 +1,8 @@
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\GraphDfsAndBfs\bin\Debug\GraphDfsAndBfs.exe.config
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\GraphDfsAndBfs\bin\Debug\GraphDfsAndBfs.exe
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\GraphDfsAndBfs\bin\Debug\GraphDfsAndBfs.pdb
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\GraphDfsAndBfs\obj\Debug\GraphDfsAndBfs.csproj.AssemblyReference.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\GraphDfsAndBfs\obj\Debug\GraphDfsAndBfs.csproj.SuggestedBindingRedirects.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\GraphDfsAndBfs\obj\Debug\GraphDfsAndBfs.csproj.CoreCompileInputs.cache
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\GraphDfsAndBfs\obj\Debug\GraphDfsAndBfs.exe
+D:\UNIVERSITY\Пловдивски Университет\Алгоритми и структури от данни\informatics_autumn_2022\GraphDfsAndBfs\obj\Debug\GraphDfsAndBfs.pdb

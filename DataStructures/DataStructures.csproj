@@ -46,9 +46,12 @@
     <Compile Include="BSTNode.cs" />
     <Compile Include="BSTree.cs" />
     <Compile Include="DoublyLinkedList.cs" />
+    <Compile Include="HashTableArrayImplLinearProbing.cs" />
+    <Compile Include="HashTableHolder.cs" />
     <Compile Include="LinkedListNode.cs" />
     <Compile Include="MyQueue.cs" />
     <Compile Include="MyStack.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

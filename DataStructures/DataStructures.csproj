@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoublyLinkedList.cs" />
+    <Compile Include="LinkedListNode.cs" />
     <Compile Include="MyQueue.cs" />
     <Compile Include="MyStack.cs" />
     <Compile Include="Program.cs" />

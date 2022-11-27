@@ -108,6 +108,56 @@ namespace DataStructures
             //Console.WriteLine("Remove last = " + linkedList.RemoveLast());
             //linkedList.Print();
             //Console.WriteLine("Size = " + linkedList.Size);
+
+            BSTree<int> bsTree = new BSTree<int>();
+            bsTree.Insert(25);
+            bsTree.Insert(17);
+            bsTree.Insert(26);
+            bsTree.Insert(14);
+            bsTree.Insert(19);
+            bsTree.Insert(27);
+            bsTree.Insert(31);
+            bsTree.Insert(10);
+            bsTree.Insert(16);
+            bsTree.Insert(20);
+            bsTree.Insert(18);
+            bsTree.Insert(31);//duplicate
+            bsTree.Insert(32);
+
+            //                      25
+            //                 17        26
+            //            14       19        27
+            //          10  16   18  20         31
+            //                                     32
+
+            bsTree.TraverseInOrder();
+            bsTree.TraversePreOrder();
+            bsTree.TraversePostOrder();
+
+            Console.WriteLine("Min = " + bsTree.Min());
+            Console.WriteLine("Max = " + bsTree.Max());
+
+            Console.WriteLine("Get 10 = " + bsTree.Get(10));
+            Console.WriteLine("Get 31 = " + bsTree.Get(31));
+            Console.WriteLine("Get 9999 = " + bsTree.Get(9999));
+            Console.WriteLine();
+            bsTree.TraverseInOrder();
+            Console.WriteLine("Delete 17 ");
+            bsTree.Delete(17);
+            bsTree.TraverseInOrder();
+
+            Console.WriteLine("Delete 26 ");
+            bsTree.Delete(26);
+            bsTree.TraverseInOrder();
+
+            Console.WriteLine("Delete 14 ");
+            bsTree.Delete(14);
+            bsTree.TraverseInOrder();
+
+            Console.WriteLine("Delete 9999 ");
+            bsTree.Delete(9999);
+            bsTree.TraverseInOrder();
+
         }
     }
 }
